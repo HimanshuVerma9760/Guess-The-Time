@@ -7,6 +7,7 @@ export default function Player() {
 
   function setName() {
     setPlayerName(player.current.value);
+    player.current.value = "";
   }
   return (
     <section id="player">
